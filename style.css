@@ -1,0 +1,38 @@
+body{
+    background-color: aquamarine;
+}
+h1{
+    text-align: center;
+}
+.ships{
+    width: 1000px;
+    height: 100px;
+    background-color: rgb(47, 127, 192);
+    display:flex;
+}
+#play1,#play2
+{
+    width: 500px;
+    height: 500px;
+    
+}
+#main
+{
+    display: flex;
+}
+div#main1
+{
+    margin:10px 100px 10px 10px;
+}
+div#main2
+{
+    margin:10px 10px 10px 200px;
+}
+
+ table,tr ,td
+{
+    padding: 10px;
+    border: 1px solid black; 
+    border-collapse: collapse;
+    background-color: rgb(52, 8, 248);
+}
