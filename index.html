@@ -3,6 +3,7 @@
     <head>
             <link rel="stylesheet" href="style.css">
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+           <script src="/socket.io/socket.io.js"></script>
             <script src="ship.js"></script>
             <script src="script.js" ></script>
             
@@ -22,30 +23,12 @@
             <div class="ships">
                 <h3 onclick="ChooseShips()">click me to start choosing ships</h3>
             </div>
-
-           <!-- <script src="/socket.io/socket.io.js"></script>-->
+            <div class="result">
+                
+            </div>
+            <button onclick="Ready()">Ready!</button>
             <script>
-                // document.addEventListener('keydown',bla);
-                //  var socket = io('http://localhost:3000');
-                //  $(document).keyup(function(event) { 
- 
-                // var key = (event.keyCode ? event.keyCode : event.which); 
-
-                //     console.log(event);
-
-                //     }); 
-
-                //  function bla(){
-                //     socket.emit('private message','valod','priv');
-                //  }
-                //     socket.on('news', function (data) {
-                //     console.log(data);
-                //     socket.emit('my event', { my: 'data' });
-                //     socket.on('valod',function(data){
-                //         console.log(data);
-                //     });
-                    
-                //   });
+                
 
                
 
